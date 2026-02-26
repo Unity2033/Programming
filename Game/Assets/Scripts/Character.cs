@@ -5,10 +5,16 @@ public class Character : MonoBehaviourPun
 {
     [SerializeField] float speed;
     [SerializeField] Vector3 direction;
+    [SerializeField] Rotation rotation;
+
+    private void Awake()
+    {
+        rotation = GetComponent<Rotation>();
+    }
 
     void Start()
     {
-        
+        DisableCamera();
     }
 
     void Update()
@@ -18,8 +24,26 @@ public class Character : MonoBehaviourPun
             Control();
 
             Move();
+
+            rotation.RotateY();
+        }    
+    }
+
+    public void DisableCamera()
+    {
+        // 현재 플레이어가 나 자신이라면
+        if(photonView.IsMine)
+        {
+            Camera.main.gameObject.SetActive(false);
         }
-        
+        else
+        {
+            Camera eye = transform.GetComponentInChildren<Camera>();
+
+            eye.GetComponent<AudioListener>().gameObject.SetActive(false);
+
+            eye.gameObject.SetActive(false);
+        }
     }
 
     public void Control()

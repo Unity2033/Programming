@@ -846,7 +846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axis: 0
-  speed: 250
+  speed: 200
 --- !u!1 &8580124379062030442
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,6 +924,8 @@ GameObject:
   - component: {fileID: 7683542484838573260}
   - component: {fileID: 5640716674344153330}
   - component: {fileID: 1571258591617939372}
+  - component: {fileID: 3230058832860176916}
+  - component: {fileID: 6672902770062269393}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -1049,3 +1051,32 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &3230058832860176916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8821456355777616460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67d1f08944b54b74f842e79da47b16e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotation: {fileID: 0}
+  minimumAngle: -55
+  maximumAngle: 55
+--- !u!114 &6672902770062269393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8821456355777616460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b0e15d6e5ef51e4788e01538f2ae32b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axis: 0
+  speed: 250

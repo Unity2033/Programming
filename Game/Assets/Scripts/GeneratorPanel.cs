@@ -2,18 +2,47 @@ using UnityEngine;
 using Photon.Pun;
 using UnityEngine.UI;
 using Photon.Realtime;
+using System;
 
 public class GeneratorPanel : MonoBehaviourPunCallbacks
 {
-    [SerializeField] InputField inputField;
+    [SerializeField] int personnal = 0;
 
     [SerializeField] Toggle [ ] toggles;
 
-    [SerializeField] int personnal = 0;
-    
-    void Start()
+    [SerializeField] InputField inputField;
+
+    [SerializeField] Button createRoomButton;
+
+    public override void OnEnable()
     {
+        base.OnEnable();
+
+        inputField.text = "";
+
+        for(int i = 0; i < toggles.Length; i++)
+        {
+            if(i == 0)
+            {
+                toggles[i].isOn = true;
+            }
+            else
+            {
+                toggles[i].isOn = false;
+            }
+        }
+
         Select(true);
+    }
+
+    private void Start()
+    {
+        OnRoomNameChanged();
+    }
+
+    public void OnRoomNameChanged()
+    {
+        createRoomButton.interactable = string.IsNullOrWhiteSpace(inputField.text) == false;
     }
 
     public void CreateRoom()

@@ -21,12 +21,24 @@ public class Character : MonoBehaviourPun
     {
         if(photonView.IsMine)
         {
+            Pause();
+
             Control();
 
             Move();
 
             rotation.RotateY();
         }    
+    }
+
+    void Pause()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            MouseManager.Instance.SetMouse(true);
+
+            PanelManager.Instance.Load(Panel.Pause);
+        }
     }
 
     public void DisableCamera()

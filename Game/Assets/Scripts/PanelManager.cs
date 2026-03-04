@@ -44,6 +44,8 @@ public class PanelManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        DontDestroyOnLoad(gameObject);
     }
 
     public void Load(Panel panel, string message = null)

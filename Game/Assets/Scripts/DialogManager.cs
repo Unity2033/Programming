@@ -1,5 +1,5 @@
 using Photon.Pun;
-using Photon.Pun.UtilityScripts;
+using Photon.Realtime;
 using System;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,7 +8,7 @@ public class DialogManager : MonoBehaviourPunCallbacks
 {
     [SerializeField] InputField inputField;
     [SerializeField] ScrollRect scrollRect;
-    [SerializeField] Transform parentTransform; 
+    [SerializeField] Transform parentTransform;
 
     void Update()
     {
@@ -21,11 +21,11 @@ public class DialogManager : MonoBehaviourPunCallbacks
                 return;
             }
 
-            string talk = PhotonNetwork.LocalPlayer.NickName + " : " + inputField.text;
+            string contents = $"<color=green>{PhotonNetwork.LocalPlayer.NickName} </color>" + " : "+ inputField.text;
 
             // RPC Target.All : 현재 룸에 있는 모든 클라이언트에게 Talk() 함수를
             // 실행하라는 명령을 전달합니다.
-            photonView.RPC("Send", RpcTarget.All, talk);
+            photonView.RPC("Send", RpcTarget.All, contents);
 
             inputField.text = "";
 
@@ -50,5 +50,20 @@ public class DialogManager : MonoBehaviourPunCallbacks
 
         // 스크롤의 위치를 초기화합니다.
         scrollRect.verticalNormalizedPosition = 0.0f;
+    }
+
+
+    public override void OnPlayerEnteredRoom(Player newPlayer)
+    {
+        string contents = $"<color=green>{newPlayer.NickName} joined the game.</color>";
+
+        photonView.RPC("Send", RpcTarget.All, contents);
+    }
+
+    public override void OnPlayerLeftRoom(Player otherPlayer)
+    {
+        string contents = $"<color=green>{otherPlayer.NickName} left the game.</color>";
+
+        photonView.RPC("Send", RpcTarget.All, contents);
     }
 }

@@ -71,4 +71,23 @@ public class Character : MonoBehaviourPun
     {
         transform.Translate(direction * speed * Time.deltaTime);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Consumable") == false)
+        {
+            return;
+        }
+
+        PhotonView view = other.GetComponent<PhotonView>();
+        
+        if(view.IsMine)
+        {
+            PhotonNetwork.Destroy(view.gameObject);
+        }
+        else if(PhotonNetwork.IsMasterClient)
+        {
+            PhotonNetwork.Destroy(view.gameObject);
+        }
+    }
 }

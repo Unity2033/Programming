@@ -15,15 +15,6 @@ public class GameManager : MonoBehaviourPunCallbacks
 
     void Awake()
     {
-        if(PhotonNetwork.IsMasterClient)
-        {
-            photonView.RPC("SetTime", RpcTarget.AllBuffered);
-        }
-    }
-
-    [PunRPC]
-    void SetTime()
-    {
         initializeTime = PhotonNetwork.Time;
     }
 

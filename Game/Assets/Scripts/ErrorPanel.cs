@@ -1,3 +1,6 @@
+using Mono.Cecil.Cil;
+using NUnit.Framework;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,6 +15,37 @@ public class ErrorPanel : MonoBehaviour
 
     public void SetText(string message)
     {
-        errorText.text = message;
+        int index = message.IndexOf(":");
+
+        if(index >= 0)
+        {
+            message = message.Substring(index + 1);
+        }
+
+        var lines = message.Split(new[] { "\r\n", "\n" }, System.StringSplitOptions.RemoveEmptyEntries);
+
+        List<string> filtread = new List<string>();
+
+        foreach(var line in lines)
+        {
+            string clean = line.Trim();
+
+            if(clean == "Invalid input parameters")
+            {
+                continue;
+            }
+
+            if(clean.StartsWith(":"))
+            {
+                clean = clean.Substring(1).Trim();
+            }
+
+            if(string.IsNullOrEmpty(clean) == false)
+            {
+                filtread.Add(clean);
+            }
+        }
+
+        errorText.text = string.Join("\n\n",filtread);
     }
 }

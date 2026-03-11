@@ -710,6 +710,7 @@ GameObject:
   - component: {fileID: 8125145725504729262}
   - component: {fileID: 4010002868082013200}
   - component: {fileID: 9125861366283436857}
+  - component: {fileID: 1351879252815603792}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -801,6 +802,7 @@ MonoBehaviour:
   observableSearch: 2
   ObservedComponents:
   - {fileID: 4010002868082013200}
+  - {fileID: 1351879252815603792}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -891,7 +893,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   force: 5
+  distance: 0.2
+  animator: {fileID: 0}
   rigidBody: {fileID: 0}
+--- !u!114 &1351879252815603792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5864561686813219921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowLayerWeightsInspector: 1
+  ShowParameterInspector: 1
+  m_SynchronizeParameters:
+  - Type: 4
+    SynchronizeType: 1
+    Name: Jump
+  m_SynchronizeLayers:
+  - SynchronizeType: 1
+    LayerIndex: 0
 --- !u!1 &8580124379062030442
 GameObject:
   m_ObjectHideFlags: 0

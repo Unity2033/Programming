@@ -7,10 +7,13 @@
       "RelativeMoniker": "D:0:0:{A0094B1E-AAED-4216-9175-D0FF27EEEF06}|Program.vcxproj|solutionrelative:Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0094B1E-AAED-4216-9175-D0FF27EEEF06}|Program.vcxproj|C:\\PROGRAM FILES (X86)\\WINDOWS KITS\\10\\INCLUDE\\10.0.22621.0\\UCRT\\STDIO.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{00B47050-444F-4980-A03C-A1EC4ABA0E05}|..\\Class2th (Variable \u0026 Constant)\\Class2th (Variable \u0026 Constant).vcxproj|C:\\Users\\Administrator\\Desktop\\Programming\\Class2th (Variable \u0026 Constant)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83C01D5E-4472-4A92-A962-ACD87CFE3CD8}|..\\Class1th (Compile)\\Class1th (Compile).vcxproj|C:\\Users\\Administrator\\Desktop\\Programming\\Class1th (Compile)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,7 +23,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,6 +48,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Programming\\Class2th (Variable \u0026 Constant)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class2th (Variable \u0026 Constant)\\Source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Programming\\Class2th (Variable \u0026 Constant)\\Source.c",
+              "RelativeToolTip": "..\\Class2th (Variable \u0026 Constant)\\Source.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-18T09:02:13.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "stdio.h",
               "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
@@ -52,8 +68,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
               "ViewState": "AQIAAH8CAAAAAAAAAAASwIECAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-17T09:41:12.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T09:41:12.949Z"
             },
             {
               "$type": "Document",
@@ -65,8 +80,7 @@
               "RelativeToolTip": "..\\Class1th (Compile)\\Source.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-03-17T09:06:41.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T09:06:41.17Z"
             },
             {
               "$type": "Document",
@@ -76,7 +90,7 @@
               "RelativeDocumentMoniker": "Source.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Programming\\Program\\Source.c",
               "RelativeToolTip": "Source.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF4AAAARAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAowEwAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-03-16T09:32:07.356Z",
               "EditorCaption": ""

@@ -70,5 +70,80 @@ void main()
 	// 정해지며, 한 번에 처리할 수 있는 크기는 운영 체제에 따라 크기가 결정됩니다.
 #pragma endregion
 
+#pragma region 범용 포인터
+	// 자료형이 정해지지 않은 상태로 모든 자료형을
+	// 저장할 수 있는 포인터입니다.
+	
+	// char rank = 'S';
+	// int level = 1;
+	// float durability = 12.5f;
+	// 
+	// void * reference = NULL;
+	// 
+	// reference = &rank;
+	
+	// 범용 포인터는 메모리 주소에 접근해서 값을
+	// 변경할 수 없습니다.
 
+	// *(char *)reference = 'A';
+	// 
+	// printf("rank 변수의 값 : %c\n", rank);
+	// printf("reference의 값 : %p\n", reference);
+	// 
+	// reference = &level;
+	// 
+	// *(int*)reference = 5;
+	// 
+	// printf("level 변수의 값 : %d\n", level);
+	// printf("reference의 값 : %p\n", reference);
+	// 
+	// reference = &durability;
+	// 
+	// *(float*)reference = 17.5f;
+	// 
+	// printf("durability 변수의 값 : %f\n", durability);
+	// printf("reference의 값 : %p\n", reference);
+
+	// 범용 포인터로 변수의 메모리에 접근하려면 범용 포인터가
+	// 가리키는 변수의 자료형으로 변환해주어야 합니다.
+#pragma endregion
+
+#pragma region 상수 지시 포인터
+// 포인터가 가리키는 주소에 저장되어 있는 값을 변경할 수
+// 없도록 지정되어 있는 포인터입니다.
+
+// int y = 10;
+// int z = 20;
+// 
+// const int * address = &y;
+// 
+// // *address = 99;
+// 
+// printf("y의 주소 값 : %p\n", &y);
+// printf("address의 값 : %p\n\n", address);
+// 
+// address = &z;
+// 
+// printf("z의 주소 값 : %p\n", &z);
+// printf("address의 값 : %p\n", address);
+
+#pragma endregion
+
+#pragma region 포인터 상수
+// 포인터 변수가 가리키고 있는 주소 값을 변경할 수
+// 없는 포인터입니다.
+
+// int dexterity = 5;
+// int wisdom = 1;
+// 
+// int * const fixed = &dexterity;
+// 
+// *fixed = 10;
+// 
+// // fixed = wisdom;
+// 
+// printf("fixed 변수가 가리키는 값 : %d\n", *fixed);
+// printf("dexterity 변수의 값 : %d\n", dexterity);
+
+#pragma endregion
 }

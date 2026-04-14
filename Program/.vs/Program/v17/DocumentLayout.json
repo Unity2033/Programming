@@ -1,10 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Program\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Programming\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63D69C66-F32A-41C9-A73B-22D0C5D97FAB}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Program\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{63D69C66-F32A-41C9-A73B-22D0C5D97FAB}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Programming\\Program\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{63D69C66-F32A-41C9-A73B-22D0C5D97FAB}|Program.vcxproj|solutionrelative:source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3AFF1-F61F-4F66-8F85-BAAEABB24600}|..\\Class1th (Input System)\\Class1th (Input System).vcxproj|C:\\Users\\Administrator\\Desktop\\Programming\\Class1th (Input System)\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +17,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,13 +41,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Programming\\Class1th (Input System)\\source.c",
+              "RelativeDocumentMoniker": "..\\Class1th (Input System)\\source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Programming\\Class1th (Input System)\\source.c",
+              "RelativeToolTip": "..\\Class1th (Input System)\\source.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-04-14T09:13:02.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "source.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Program\\source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Programming\\Program\\source.c",
               "RelativeDocumentMoniker": "source.c",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Program\\source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Programming\\Program\\source.c",
               "RelativeToolTip": "source.c",
-              "ViewState": "AQIAAAMAAAAAAAAAAAA2wBMAAAAZAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-04-13T09:07:32.325Z",
               "EditorCaption": ""

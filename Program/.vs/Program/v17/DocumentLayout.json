@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Programming\\Program\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4C50D881-079D-4F69-9E5D-702E2CDE3B71}|..\\Class5th (Double Buffering)\\Class5th (Double Buffering).vcxproj|C:\\Users\\Administrator\\Desktop\\Programming\\Class5th (Double Buffering)\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{63D69C66-F32A-41C9-A73B-22D0C5D97FAB}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Programming\\Program\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{63D69C66-F32A-41C9-A73B-22D0C5D97FAB}|Program.vcxproj|solutionrelative:source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -26,7 +29,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +53,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Programming\\Class5th (Double Buffering)\\source.c",
+              "RelativeDocumentMoniker": "..\\Class5th (Double Buffering)\\source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Programming\\Class5th (Double Buffering)\\source.c",
+              "RelativeToolTip": "..\\Class5th (Double Buffering)\\source.c",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAuwGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-04-23T10:30:01.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Programming\\Class4th (Color System)\\source.c",
               "RelativeDocumentMoniker": "..\\Class4th (Color System)\\source.c",
@@ -62,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Programming\\Class3th (File Input \u0026 Output)\\source.c",
               "RelativeDocumentMoniker": "..\\Class3th (File Input \u0026 Output)\\source.c",
@@ -74,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Programming\\Class2th (Time System)\\source.c",
               "RelativeDocumentMoniker": "..\\Class2th (Time System)\\source.c",
@@ -86,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Programming\\Class1th (Input System)\\source.c",
               "RelativeDocumentMoniker": "..\\Class1th (Input System)\\source.c",
@@ -98,13 +114,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Programming\\Program\\source.c",
               "RelativeDocumentMoniker": "source.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Programming\\Program\\source.c",
               "RelativeToolTip": "source.c",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAAAEsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-04-13T09:07:32.325Z",
               "EditorCaption": ""
